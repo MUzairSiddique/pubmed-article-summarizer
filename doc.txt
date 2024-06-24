@@ -1,0 +1,19 @@
+PubMed Article Summarizer
+Project Description
+The PubMed Article Summarizer is a web application that enables users to upload PubMed articles in text format, summarize the articles using a pre-trained AI model, and display various metrics to evaluate the summary. The application also includes user authentication to ensure secure access.
+
+Features
+User Authentication: Secure login system using a placeholder user database.
+File Upload: Upload PubMed articles in .txt format.
+Text Preprocessing: Clean and prepare text for summarization.
+Text Summarization: Summarize text using the facebook/bart-large-cnn model from the transformers library.
+Evaluation Metrics: Calculate and display ROUGE scores to evaluate the summary quality.
+Interactive Plots: Visualize summary metrics using Plotly.
+Installation
+To run this application, you need to have Python installed along with several packages. You can install the required packages using pip.
+
+Usage
+Clone the repository:
+Run the Streamlit app:
+Access the application:
+Open your web browser and go to http://localhost:8501.
